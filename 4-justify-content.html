@@ -11,6 +11,7 @@
             margin: 0px;
             display: flex;
             border: 1px solid black;
+            margin-bottom: 10px;
         }
         .item {
             background-color: blueviolet;
@@ -21,11 +22,21 @@
         .flex-start {
             justify-content: flex-start;
         }
+        .flex-end {
+            justify-content: end;
+        }
 
     </style>
 </head>
 <body>
+    <p>flex-start</p>
     <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+    </section>
+    <p>flex-end</p>
+    <section class="container flex-end">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
