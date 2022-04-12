@@ -15,7 +15,6 @@
             background-color: blueviolet;
             margin: 5px;
             color:white;
-            align-items: center;
             flex: 1;
         }
         .center {
@@ -23,6 +22,9 @@
         }
         .stretch {
             align-items: stretch;
+        }
+        .flex-start {
+            align-items: flex-start;
         }
 
 
@@ -36,10 +38,16 @@
         <div class="items">item 3 Lorem ipsum dolor sit ament</div>
     </section>
     <p>Stretch</p>
-    <section class="container center stretch">
+    <section class="container stretch">
         <div class="items">item 1</div>
         <div class="items">Lorem ipsum dolor sit ament. Lorem ipsum dolor sit ament. item 3 Lorem ipsum dolor sit ament</div>
         <div class="items">item 3 Lorem ipsum dolor sit ament</div>
+    </section>
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="items">item 1</div>
+        <div class="items">item 3 Lorem ipsum dolor sit ament</div>
+        <div class="items">item 3 Lorem ipsum dolor sit ament. Lorem ipsum dolor sit ament</div>
     </section>
 </body>
 </html>
